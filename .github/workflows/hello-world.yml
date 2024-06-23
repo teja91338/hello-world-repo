@@ -6,9 +6,9 @@ on:
       - main
 
 jobs:
-  hello_world:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Echo hello world
-        run: echo "hello world"
+ hello-job:
+   runs-on: ubuntu-latest
+  steps:
+    -name: Echo text
+     run: echo "Hello, world!
 
