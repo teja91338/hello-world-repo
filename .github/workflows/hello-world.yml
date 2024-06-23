@@ -8,4 +8,4 @@ jobs:
 
   steps:
    -name: "Echo test"
-  run: echo "Hello World"
+    run: echo "Hello World"
